@@ -1,5 +1,5 @@
 # lammpslogMatlab
-Matlab code to extract log file from lammps
+Matlab code to extract the data in lammps log file.
 
 This code is an add-on to the readlog file created by Arun K. Subramaniyan.
 Both has to be opened at the same time.
