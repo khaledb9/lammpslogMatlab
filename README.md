@@ -14,4 +14,6 @@ Matlab code to extract the data from lammps log file. This code is an add-on to 
 
 Note: Sometimes the reader will fail if the log file run did not end in the expected way of "Loop time of ... " This happens usually when using gpu packages or it might happen with packages that I did not use previously. Modifying that line to the expected format should solve the issue. 
 
+Update: LAMMPS 23JUN version aligns the thermo headings, the code will not work with these new log files. However, it is not diffcult to use any data extract tool.
+
 Happy Simulations !
